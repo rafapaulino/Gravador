@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A124CDD160B6520005C462C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A124CDC160B6520005C462C /* UIKit.framework */; };
+		6A124CDF160B6520005C462C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A124CDE160B6520005C462C /* Foundation.framework */; };
+		6A124CE1160B6520005C462C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A124CE0160B6520005C462C /* CoreGraphics.framework */; };
+		6A124CE7160B6520005C462C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A124CE5160B6520005C462C /* InfoPlist.strings */; };
+		6A124CE9160B6520005C462C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A124CE8160B6520005C462C /* main.m */; };
+		6A124CED160B6520005C462C /* PrincipalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A124CEC160B6520005C462C /* PrincipalAppDelegate.m */; };
+		6A124CF0160B6520005C462C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A124CEE160B6520005C462C /* MainStoryboard.storyboard */; };
+		6A124CF3160B6520005C462C /* PrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A124CF2160B6520005C462C /* PrincipalViewController.m */; };
+		6A124CFB160B6521005C462C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A124CFA160B6521005C462C /* SenTestingKit.framework */; };
+		6A124CFC160B6521005C462C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A124CDC160B6520005C462C /* UIKit.framework */; };
+		6A124CFD160B6521005C462C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A124CDE160B6520005C462C /* Foundation.framework */; };
+		6A124D05160B6521005C462C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A124D03160B6521005C462C /* InfoPlist.strings */; };
+		6A124D08160B6521005C462C /* GravadorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A124D07160B6521005C462C /* GravadorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A124CFE160B6521005C462C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A124CCF160B6520005C462C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A124CD7160B6520005C462C;
+			remoteInfo = Gravador;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A124CD8160B6520005C462C /* Gravador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gravador.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A124CDC160B6520005C462C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A124CDE160B6520005C462C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A124CE0160B6520005C462C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A124CE4160B6520005C462C /* Gravador-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gravador-Info.plist"; sourceTree = "<group>"; };
+		6A124CE6160B6520005C462C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A124CE8160B6520005C462C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A124CEA160B6520005C462C /* Gravador-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gravador-Prefix.pch"; sourceTree = "<group>"; };
+		6A124CEB160B6520005C462C /* PrincipalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalAppDelegate.h; sourceTree = "<group>"; };
+		6A124CEC160B6520005C462C /* PrincipalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalAppDelegate.m; sourceTree = "<group>"; };
+		6A124CEF160B6520005C462C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6A124CF1160B6520005C462C /* PrincipalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalViewController.h; sourceTree = "<group>"; };
+		6A124CF2160B6520005C462C /* PrincipalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalViewController.m; sourceTree = "<group>"; };
+		6A124CF9160B6521005C462C /* GravadorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravadorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A124CFA160B6521005C462C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A124D02160B6521005C462C /* GravadorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GravadorTests-Info.plist"; sourceTree = "<group>"; };
+		6A124D04160B6521005C462C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A124D06160B6521005C462C /* GravadorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GravadorTests.h; sourceTree = "<group>"; };
+		6A124D07160B6521005C462C /* GravadorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravadorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A124CD5160B6520005C462C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A124CDD160B6520005C462C /* UIKit.framework in Frameworks */,
+				6A124CDF160B6520005C462C /* Foundation.framework in Frameworks */,
+				6A124CE1160B6520005C462C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A124CF5160B6521005C462C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A124CFB160B6521005C462C /* SenTestingKit.framework in Frameworks */,
+				6A124CFC160B6521005C462C /* UIKit.framework in Frameworks */,
+				6A124CFD160B6521005C462C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A124CCD160B6520005C462C = {
+			isa = PBXGroup;
+			children = (
+				6A124CE2160B6520005C462C /* Gravador */,
+				6A124D00160B6521005C462C /* GravadorTests */,
+				6A124CDB160B6520005C462C /* Frameworks */,
+				6A124CD9160B6520005C462C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A124CD9160B6520005C462C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A124CD8160B6520005C462C /* Gravador.app */,
+				6A124CF9160B6521005C462C /* GravadorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A124CDB160B6520005C462C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A124CDC160B6520005C462C /* UIKit.framework */,
+				6A124CDE160B6520005C462C /* Foundation.framework */,
+				6A124CE0160B6520005C462C /* CoreGraphics.framework */,
+				6A124CFA160B6521005C462C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A124CE2160B6520005C462C /* Gravador */ = {
+			isa = PBXGroup;
+			children = (
+				6A124CEB160B6520005C462C /* PrincipalAppDelegate.h */,
+				6A124CEC160B6520005C462C /* PrincipalAppDelegate.m */,
+				6A124CEE160B6520005C462C /* MainStoryboard.storyboard */,
+				6A124CF1160B6520005C462C /* PrincipalViewController.h */,
+				6A124CF2160B6520005C462C /* PrincipalViewController.m */,
+				6A124CE3160B6520005C462C /* Supporting Files */,
+			);
+			path = Gravador;
+			sourceTree = "<group>";
+		};
+		6A124CE3160B6520005C462C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A124CE4160B6520005C462C /* Gravador-Info.plist */,
+				6A124CE5160B6520005C462C /* InfoPlist.strings */,
+				6A124CE8160B6520005C462C /* main.m */,
+				6A124CEA160B6520005C462C /* Gravador-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A124D00160B6521005C462C /* GravadorTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A124D06160B6521005C462C /* GravadorTests.h */,
+				6A124D07160B6521005C462C /* GravadorTests.m */,
+				6A124D01160B6521005C462C /* Supporting Files */,
+			);
+			path = GravadorTests;
+			sourceTree = "<group>";
+		};
+		6A124D01160B6521005C462C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A124D02160B6521005C462C /* GravadorTests-Info.plist */,
+				6A124D03160B6521005C462C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A124CD7160B6520005C462C /* Gravador */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A124D0B160B6521005C462C /* Build configuration list for PBXNativeTarget "Gravador" */;
+			buildPhases = (
+				6A124CD4160B6520005C462C /* Sources */,
+				6A124CD5160B6520005C462C /* Frameworks */,
+				6A124CD6160B6520005C462C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gravador;
+			productName = Gravador;
+			productReference = 6A124CD8160B6520005C462C /* Gravador.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A124CF8160B6521005C462C /* GravadorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A124D0E160B6521005C462C /* Build configuration list for PBXNativeTarget "GravadorTests" */;
+			buildPhases = (
+				6A124CF4160B6521005C462C /* Sources */,
+				6A124CF5160B6521005C462C /* Frameworks */,
+				6A124CF6160B6521005C462C /* Resources */,
+				6A124CF7160B6521005C462C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A124CFF160B6521005C462C /* PBXTargetDependency */,
+			);
+			name = GravadorTests;
+			productName = GravadorTests;
+			productReference = 6A124CF9160B6521005C462C /* GravadorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A124CCF160B6520005C462C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Principal;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = rafapaulino.com;
+			};
+			buildConfigurationList = 6A124CD2160B6520005C462C /* Build configuration list for PBXProject "Gravador" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A124CCD160B6520005C462C;
+			productRefGroup = 6A124CD9160B6520005C462C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A124CD7160B6520005C462C /* Gravador */,
+				6A124CF8160B6521005C462C /* GravadorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A124CD6160B6520005C462C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A124CE7160B6520005C462C /* InfoPlist.strings in Resources */,
+				6A124CF0160B6520005C462C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A124CF6160B6521005C462C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A124D05160B6521005C462C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A124CF7160B6521005C462C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A124CD4160B6520005C462C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A124CE9160B6520005C462C /* main.m in Sources */,
+				6A124CED160B6520005C462C /* PrincipalAppDelegate.m in Sources */,
+				6A124CF3160B6520005C462C /* PrincipalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A124CF4160B6521005C462C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A124D08160B6521005C462C /* GravadorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A124CFF160B6521005C462C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A124CD7160B6520005C462C /* Gravador */;
+			targetProxy = 6A124CFE160B6521005C462C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A124CE5160B6520005C462C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A124CE6160B6520005C462C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A124CEE160B6520005C462C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A124CEF160B6520005C462C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6A124D03160B6521005C462C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A124D04160B6521005C462C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A124D09160B6521005C462C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A124D0A160B6521005C462C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A124D0C160B6521005C462C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gravador/Gravador-Prefix.pch";
+				INFOPLIST_FILE = "Gravador/Gravador-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A124D0D160B6521005C462C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gravador/Gravador-Prefix.pch";
+				INFOPLIST_FILE = "Gravador/Gravador-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A124D0F160B6521005C462C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gravador.app/Gravador";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gravador/Gravador-Prefix.pch";
+				INFOPLIST_FILE = "GravadorTests/GravadorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A124D10160B6521005C462C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gravador.app/Gravador";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gravador/Gravador-Prefix.pch";
+				INFOPLIST_FILE = "GravadorTests/GravadorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A124CD2160B6520005C462C /* Build configuration list for PBXProject "Gravador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A124D09160B6521005C462C /* Debug */,
+				6A124D0A160B6521005C462C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A124D0B160B6521005C462C /* Build configuration list for PBXNativeTarget "Gravador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A124D0C160B6521005C462C /* Debug */,
+				6A124D0D160B6521005C462C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A124D0E160B6521005C462C /* Build configuration list for PBXNativeTarget "GravadorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A124D0F160B6521005C462C /* Debug */,
+				6A124D10160B6521005C462C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A124CCF160B6520005C462C /* Project object */;
+}
