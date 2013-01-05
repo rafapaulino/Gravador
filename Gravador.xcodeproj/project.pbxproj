@@ -20,6 +20,8 @@
 		6A124CFD160B6521005C462C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A124CDE160B6520005C462C /* Foundation.framework */; };
 		6A124D05160B6521005C462C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A124D03160B6521005C462C /* InfoPlist.strings */; };
 		6A124D08160B6521005C462C /* GravadorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A124D07160B6521005C462C /* GravadorTests.m */; };
+		6A124D12160B657A005C462C /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A124D11160B657A005C462C /* speaker.png */; };
+		6A124D14160B6729005C462C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A124D13160B6729005C462C /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		6A124D04160B6521005C462C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A124D06160B6521005C462C /* GravadorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GravadorTests.h; sourceTree = "<group>"; };
 		6A124D07160B6521005C462C /* GravadorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravadorTests.m; sourceTree = "<group>"; };
+		6A124D11160B657A005C462C /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker.png; sourceTree = "<group>"; };
+		6A124D13160B6729005C462C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A124D14160B6729005C462C /* AVFoundation.framework in Frameworks */,
 				6A124CDD160B6520005C462C /* UIKit.framework in Frameworks */,
 				6A124CDF160B6520005C462C /* Foundation.framework in Frameworks */,
 				6A124CE1160B6520005C462C /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +86,7 @@
 		6A124CCD160B6520005C462C = {
 			isa = PBXGroup;
 			children = (
+				6A124D13160B6729005C462C /* AVFoundation.framework */,
 				6A124CE2160B6520005C462C /* Gravador */,
 				6A124D00160B6521005C462C /* GravadorTests */,
 				6A124CDB160B6520005C462C /* Frameworks */,
@@ -114,6 +120,7 @@
 				6A124CEB160B6520005C462C /* PrincipalAppDelegate.h */,
 				6A124CEC160B6520005C462C /* PrincipalAppDelegate.m */,
 				6A124CEE160B6520005C462C /* MainStoryboard.storyboard */,
+				6A124D11160B657A005C462C /* speaker.png */,
 				6A124CF1160B6520005C462C /* PrincipalViewController.h */,
 				6A124CF2160B6520005C462C /* PrincipalViewController.m */,
 				6A124CE3160B6520005C462C /* Supporting Files */,
@@ -225,6 +232,7 @@
 			files = (
 				6A124CE7160B6520005C462C /* InfoPlist.strings in Resources */,
 				6A124CF0160B6520005C462C /* MainStoryboard.storyboard in Resources */,
+				6A124D12160B657A005C462C /* speaker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
